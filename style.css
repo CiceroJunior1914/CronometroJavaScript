@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(39, 39, 39);
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(0, 255, 98);
+}
+.Conteiner-cronometro{
+    text-align: center;
+}
+p{
+    font-weight: bold;
+    font-size: 20pt;
+}
+button{
+    width: 100px;
+    height: 35px;
+   
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 1px rgb(250, 249, 249);
+    cursor: pointer;
+    border:  1px solid #ccc;
+    transition: all 0.2s ease-in-out;
+    color: rgb(0, 0, 0);
+}
+button:active{
+    box-shadow: 0px 0px 0px 0px rgb(250, 249, 249);
+}
